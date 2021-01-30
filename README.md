@@ -10,6 +10,9 @@ Online Food Ordering Web/Mobile System with SpringMVC,COR,Spring Boot, MySQL, Re
 
 ## Deployment
 * Clone this repository on your system
+
+git clone https://github.com/intellect82/foodapp.git
+
 * Import this in your favorite IDE (In eclipse - Import > Existing Maven Projects) - Maven will automatically download all the dependencies
 * Create database from dump file - Create database by going to your repository location and running following command (Dump file food_order_system.sql is given in the repository): 
 ```
