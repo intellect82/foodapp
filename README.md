@@ -1,10 +1,12 @@
-# food-ordering
-REST API for Online Food Ordering System with Spring Boot, MySQL, Redis
+# ONLINE food-ordering
+Online Food Ordering Web/Mobile System with SpringMVC,COR,Spring Boot, MySQL, Redis Pub/Sub
 
-### Prerequisites
-* [MySQL] (https://dev.mysql.com/doc/mysql-getting-started/en/) - MySQL Local setup
-* [Redis] (https://redis.io/topics/quickstart) - Redis server and client Local setup
-* [Maven] (http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) - Maven local setup
+### Prerequisites / Software Tools 
+
+  [MySQL] (https://dev.mysql.com/doc/mysql-getting-started/en/) - MySQL Local setup
+  [Maven] (http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) - Maven local setu
+  [Redis] (https://redis.io/topics/quickstart) - Redis server and client Local setup
+
 
 ## Deployment
 * Clone this repository on your system
@@ -16,7 +18,7 @@ REST API for Online Food Ordering System with Spring Boot, MySQL, Redis
 * Change `application.properties` file with your MySQL and Redis settings.
 * Build the project by going to the project folder on command line and executing following command:
 ```
-mvn clean install
+mvn clean install / mvn clean package 
 ```
 * Run the project with following command:
 ```
@@ -25,4 +27,13 @@ mvn spring-boot:run
 * To see the documentation of entire API, and try them out, type following url in the browser: 
 ```
 http://localhost:8080/swagger-ui.html
+
+SWAGGER API 's 
+
+http://localhost:8080/api/menuitem/6 ( item Id ) 
+http://localhost:8080/api/restaurantmenu/10  (menu Id ) 
+http://localhost:8080/api/restaurant/11 ( restaurent Id )
+http://localhost:8080/api/restaurantmenus 
 ```
+
+
