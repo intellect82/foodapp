@@ -16,6 +16,16 @@ Online Food Ordering Web/Mobile System with SpringMVC,COR,Spring Boot, MySQL, Re
  mysql -u <mysql user name> -p food_order_system < food_order_system.sql
  ```
 * Change `application.properties` file with your MySQL and Redis settings.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/food_order_system?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=rootroot  ( pwd )
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.hibernate.ddl-auto=update
+
+spring.redis.host=localhost
+spring.redis.port=6379
 * Build the project by going to the project folder on command line and executing following command:
 ```
 mvn clean install / mvn clean package 
